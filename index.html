@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document1</title>
+    <title>Document</title>
   </head>
   <body>
     <h1>來這邊接龍吧</h1>
-    <p>Hi</p>
-    <p>嗨</p>
-    <h2>test test</h2>
-</body>
-
+    <input
+      type="text"
+      id="textInput"
+      placeholder="輸入文字"
+      oninput="updateText()"
+    />
+    <div id="displayText"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
